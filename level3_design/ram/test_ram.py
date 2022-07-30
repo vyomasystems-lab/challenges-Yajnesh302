@@ -1,3 +1,6 @@
+"""
+Example of a simple testbench for a RAM block
+"""
 import random
 
 import cocotb
@@ -31,8 +34,8 @@ def test_ram(dut):
     RAM = {}
     
     # Read the parameters back from the DUT to set up our model
-    width = dut.D_WIDTH.value.integer
-    depth = 2**dut.A_WIDTH.value.integer
+    width = 16 #dut.D_WIDTH.value.integer
+    depth = 32 #2**dut.A_WIDTH.value.integer
     dut.log.info("Found %d entry RAM by %d bits wide" % (depth, width))
 
     # Set up independent read/write clocks
@@ -40,15 +43,14 @@ def test_ram(dut):
     cocotb.fork(Clock(dut.clk_read, 5000).start())
     
     dut.log.info("Writing in random values")
-    for i in xrange(depth):
+    for i in range(depth):
         RAM[i] = int(random.getrandbits(width))
         yield write_ram(dut, i, RAM[i])
 
     dut.log.info("Reading back values and checking")
-    for i in xrange(depth):
+    for i in range(depth):
         value = yield read_ram(dut, i)
         if value != RAM[i]:
             dut.log.error("RAM[%d] expected %d but got %d" % (i, RAM[i], dut.data_read.value.value))
             raise TestFailure("RAM contents incorrect")
     dut.log.info("RAM contents OK")
-

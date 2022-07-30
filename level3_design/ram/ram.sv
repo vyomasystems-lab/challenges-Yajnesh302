@@ -1,3 +1,8 @@
+// Code your design here
+/* 
+ * Random Access Memory (RAM) with
+ * 1 read port and 1 write port
+ */
 module ram (clk_write, address_write,
   data_write, write_enable,
   clk_read, address_read, data_read);

@@ -4,10 +4,10 @@ TOPLEVEL_LANG ?= verilog
 
 PWD=$(shell pwd)
 
-VERILOG_SOURCES = $(PWD)/               # provide your design path
+VERILOG_SOURCES = $(PWD)/ram.sv               # provide your design path
 
 TOPLEVEL := ram        # design file
-MODULE   := test_ram # test file
+MODULE   := test_ram   # test file
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
 
