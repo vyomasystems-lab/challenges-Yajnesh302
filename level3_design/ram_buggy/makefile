@@ -4,9 +4,9 @@ TOPLEVEL_LANG ?= verilog
 
 PWD=$(shell pwd)
 
-VERILOG_SOURCES = $(PWD)/rambug.v              # provide your design path
+VERILOG_SOURCES = $(PWD)/ram.v              # provide your design path
 
-TOPLEVEL := rambug       # design file
+TOPLEVEL := ram      # design file
 MODULE   := test_ram_buggy   # test file
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
