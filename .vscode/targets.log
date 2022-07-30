@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 16:46:46 2022
+# Make data base, printed on Sat Jul 30 17:00:42 2022
 
 # Variables
 
@@ -105,7 +105,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/gitpod/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-96da5b6f-03bb-4f41-8944-a9801055c8bb.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-aba1f01c-d70c-4aa7-b956-14ba65f383e4.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -255,6 +255,7 @@ SDKMAN_CANDIDATES_DIR = /home/gitpod/.sdkman/candidates
 # environment
 EDITOR = /ide/bin/remote-cli/gitpod-code
 # environment
+ 
 PWD = /workspace/challenges-Yajnesh302
 # environment
 LC_ALL = C
@@ -297,9 +298,9 @@ MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-3.1.2
 
 # Directories
 
-# . (device 2346, inode 3087007906): 64 files, no impossibilities.
+# . (device 2346, inode 3087007906): 15 files, no impossibilities.
 
-# 64 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -349,12 +350,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 72 / storage = 733 B / avg = 10 B
-# current buf: size = 8162 B / used = 733 B / count = 72 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 243 B / avg = 10 B
+# current buf: size = 8162 B / used = 243 B / count = 23 / avg = 10 B
 
-# strcache performance: lookups = 75 / hit rate = 4%
+# strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
-# Load=72/8192=1%, Rehash=0, Collisions=2/75=3%
-# Finished Make data base on Sat Jul 30 16:46:46 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
+# Finished Make data base on Sat Jul 30 17:00:42 2022
 
  
