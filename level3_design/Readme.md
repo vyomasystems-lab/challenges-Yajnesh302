@@ -2,9 +2,11 @@
 
 The verification environment is setup using [Vyoma's UpTickPro](https://vyomasystems.com) provided for the hackathon.
 
+![image](https://user-images.githubusercontent.com/98546502/181934882-bf4d1deb-f869-47a9-b617-4fcab388c502.png)
+
 ## Verification Environment
 
-The [CoCoTb](https://www.cocotb.org/) based Python test is developed as explained.In the write data section of code in place of data_write, data_read is the bug in code
+The [CoCoTb](https://www.cocotb.org/) based Python test is developed as explained. In the write data section of code in place of data_write, data_read is the bug in code
 
 The following error is seen:
 ```
@@ -44,3 +46,7 @@ According to the design it should be data_write instead of data_read.
 
 ## Design Fix
 Updating the design and re-running the test makes the test pass.
+
+![image](https://user-images.githubusercontent.com/98546502/181934907-3f4721e0-3b8a-4351-a1fb-5f410243c8fb.png)
+
+The updated design is checked in as ram.v
