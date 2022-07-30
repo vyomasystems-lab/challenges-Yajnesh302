@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 17:00:42 2022
+# Make data base, printed on Sat Jul 30 17:34:15 2022
 
 # Variables
 
@@ -59,7 +59,7 @@ MAVEN_HOME = /home/gitpod/.sdkman/candidates/maven/current
 # makefile
 MAKEFILE_LIST := 
 # environment
-GITPOD_WORKSPACE_CONTEXT_URL = https://github.com/vyomasystems-lab/challenges-Yajnesh302/blob/master/level3_design/ram/ram.sv
+GITPOD_WORKSPACE_CONTEXT_URL = https://github.com/vyomasystems-lab/challenges-Yajnesh302/blob/master/level3_design/ram_buggy/makefile
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -79,7 +79,7 @@ PATH = /ide/bin/remote-cli:/home/gitpod/.nix-profile/bin:/home/gitpod/.local/bin
 # environment
 GITPOD_OWNER_ID = 47330c10-3e47-4658-a2d2-76934472118e
 # environment
-GITPOD_WORKSPACE_ID = vyomasystem-challengesy-73w2oi6msxh
+GITPOD_WORKSPACE_ID = vyomasystem-challengesy-74c8ip16twk
 # environment
 GITPOD_INTERVAL = 30000
 # environment
@@ -105,7 +105,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/gitpod/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-aba1f01c-d70c-4aa7-b956-14ba65f383e4.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-22d1d92f-936e-4a4c-9424-63a021b5a175.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -147,7 +147,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
-GITPOD_CLI_APITOKEN = 7Adk6qO32ALFg0ZCnjOuFk-kEhhtFggk
+GITPOD_CLI_APITOKEN = FxGHM2CNY5FQN5OmG5IcZuxbxXVRnkqA
 # automatic
 +F = $(notdir $+)
 # environment
@@ -155,7 +155,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-HOSTNAME = vyomasystem-challengesy-73w2oi6msxh
+HOSTNAME = vyomasystem-challengesy-74c8ip16twk
 # environment
 GP_PYENV_INIT = true
 # environment
@@ -255,12 +255,11 @@ SDKMAN_CANDIDATES_DIR = /home/gitpod/.sdkman/candidates
 # environment
 EDITOR = /ide/bin/remote-cli/gitpod-code
 # environment
- 
 PWD = /workspace/challenges-Yajnesh302
 # environment
 LC_ALL = C
 # environment
-GITPOD_WORKSPACE_CONTEXT = {"ref":"master","refType":"branch","isFile":true,"path":"level3_design/ram/ram.sv","title":"vyomasystems-lab/challenges-Yajnesh302 - master","revision":"da16a49b6187090f20221fa423eacf289782e4e2","repository":{"cloneUrl":"https://github.com/vyomasystems-lab/challenges-Yajnesh302.git","host":"github.com","name":"challenges-Yajnesh302","owner":"vyomasystems-lab","private":true},"normalizedContextURL":"https://github.com/vyomasystems-lab/challenges-Yajnesh302/blob/master/level3_design/ram/ram.sv","checkoutLocation":"challenges-Yajnesh302"}
+GITPOD_WORKSPACE_CONTEXT = {"ref":"master","refType":"branch","isFile":true,"path":"level3_design/ram_buggy/makefile","title":"vyomasystems-lab/challenges-Yajnesh302 - master","revision":"f5462c7616b5075aa7b69ef35804ebdf1a398ccf","repository":{"cloneUrl":"https://github.com/vyomasystems-lab/challenges-Yajnesh302.git","host":"github.com","name":"challenges-Yajnesh302","owner":"vyomasystems-lab","private":true},"normalizedContextURL":"https://github.com/vyomasystems-lab/challenges-Yajnesh302/blob/master/level3_design/ram_buggy/makefile","checkoutLocation":"challenges-Yajnesh302"}
 # environment
 JAVA_TOOL_OPTIONS =  -Xmx3435m
 # automatic
@@ -280,9 +279,9 @@ NGINX_DOCROOT_IN_REPO = public
 # environment
 rvm_loaded_flag = 1
 # environment
-GITPOD_INSTANCE_ID = 10fa70b2-d9a5-468d-88cf-2f7c96716301
+GITPOD_INSTANCE_ID = 2dbdc055-e95c-4f1a-bc6f-4690fe6a77a6
 # environment
-GITPOD_WORKSPACE_URL = https://vyomasystem-challengesy-73w2oi6msxh.ws-us54.gitpod.io
+GITPOD_WORKSPACE_URL = https://vyomasystem-challengesy-74c8ip16twk.ws-us54.gitpod.io
 # default
 .RECIPEPREFIX := 
 # environment
@@ -298,9 +297,9 @@ MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-3.1.2
 
 # Directories
 
-# . (device 2346, inode 3087007906): 15 files, no impossibilities.
+# . (device 2346, inode 1342177536): 64 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 64 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -309,6 +308,7 @@ MY_RUBY_HOME = /home/gitpod/.rvm/rubies/ruby-3.1.2
 # Files
 
 # Not a target:
+ 
 all:
 #  Command line target.
 #  Implicit rule search has been done.
@@ -350,12 +350,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 243 B / avg = 10 B
-# current buf: size = 8162 B / used = 243 B / count = 23 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 72 / storage = 733 B / avg = 10 B
+# current buf: size = 8162 B / used = 733 B / count = 72 / avg = 10 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 75 / hit rate = 4%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Sat Jul 30 17:00:42 2022
+# Load=72/8192=1%, Rehash=0, Collisions=1/75=1%
+# Finished Make data base on Sat Jul 30 17:34:15 2022
 
  
