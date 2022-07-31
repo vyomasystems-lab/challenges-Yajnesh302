@@ -1,4 +1,4 @@
-// Code your design here
+// Design code
 /* 
  * Random Access Memory (RAM) with
  * 1 read port and 1 write port
